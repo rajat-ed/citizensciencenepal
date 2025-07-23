@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizen Science Nepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Citizen Science Nepal</a>
+                <ul class="nav-links">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#submit">Submit</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h1>Citizen Science Nepal</h1>
+                <p class="subtitle">Empowering communities through scientific discovery.</p>
+                <p class="description">Join us in exploring and understanding Nepal's rich biodiversity, environment, and more, right from your community.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Our Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project Image 1">
+                        <h3>Biodiversity Mapping in Shivapuri</h3>
+                        <p class="short-description">Help us identify and map plant and animal species in the Shivapuri Nagarjun National Park area.</p>
+                        <p class="location">Location: Shivapuri Nagarjun National Park, Kathmandu</p>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project Image 2">
+                        <h3>Air Quality Monitoring</h3>
+                        <p class="short-description">Contribute to a vital dataset by reporting air quality observations in your local neighborhood.</p>
+                        <p class="location">Location: Across Major Cities of Nepal</p>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project Image 3">
+                        <h3>Water Body Health Assessment</h3>
+                        <p class="short-description">Participate in assessing the health of local rivers, lakes, and ponds by collecting water samples.</p>
+                        <p class="location">Location: Various Rivers and Lakes in Nepal</p>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project Image 4">
+                        <h3>Bird Migration Tracking</h3>
+                        <p class="short-description">Observe and report bird sightings to help us track migration patterns across the Himalayas.</p>
+                        <p class="location">Location: Throughout Nepal, Key Migration Routes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="submit" class="submit-section">
+            <div class="container">
+                <h2>Submit Your Observations</h2>
+                <p>Have you made an interesting observation or collected valuable data? Share it with us!</p>
+                <a href="https://forms.gle/your-form-id" target="_blank" class="btn-submit">Submit Your Data</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Citizen Science Nepal is a pioneering platform dedicated to fostering scientific research and data collection through community participation. We believe that everyone has a role to play in understanding and preserving our natural world. Our mission is to connect citizens with scientific projects, enabling them to contribute valuable data, learn new skills, and make a tangible impact on research and conservation efforts across Nepal.</p>
+                </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                    <div id="form-messages" class="form-messages"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Citizen Science Nepal | Built by Rajat Thapa</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
